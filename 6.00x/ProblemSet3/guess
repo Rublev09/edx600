@@ -1,0 +1,5 @@
+def guess():
+        print 'You have ' + str(numguess) + ' guesses left.'
+        print 'Available letters: ' + str(getAvailableLetters(lettersGuessed))
+        guess = raw_input('Please guess a letter: ')
+        return guess

@@ -1,0 +1,11 @@
+lettersGuessed = ['a']
+
+def checkGuess():
+    newlist = []
+    guess = raw_input("guess: ")
+    for letter in availableLetters:
+        if letter == guess:
+            newlist.append(letter)
+            break
+    
+checkGuess()
